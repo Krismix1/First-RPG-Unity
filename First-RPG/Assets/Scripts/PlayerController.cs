@@ -49,10 +49,10 @@ public class PlayerController : MonoBehaviour {
     }
 
     void RemoveFocus() {
-        focus = null;
         motor.StopFollowingTarget();
         if (focus) {
             focus.OnDefocus();
         }
+        focus = null;
     }
 }

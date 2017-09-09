@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System;
 
 public class Interactable : MonoBehaviour {
 
@@ -10,13 +11,19 @@ public class Interactable : MonoBehaviour {
     bool isFocused = false;
     bool hasInteracted = false;
 
+    private void Start() {
+        if(radius <= 0) {
+            throw new ArgumentOutOfRangeException("Radius < 0");
+        }
+    }
+
     public virtual void Interact() {
         Debug.Log("Interacting with " + transform.name);
     }
 
     private void Update() {
         if (isFocused && !hasInteracted) {
-            float distance = Vector3.Distance(transform.position, interactionPoint.position);
+            float distance = Vector3.Distance(player.position, interactionPoint.position);
             if (distance <= radius) {
                 hasInteracted = true;
                 Interact();
@@ -34,5 +41,10 @@ public class Interactable : MonoBehaviour {
         isFocused = false;
         player = null;
         hasInteracted = false;
+    }
+
+    private void OnDrawGizmos() {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(interactionPoint.position, radius);
     }
 }
