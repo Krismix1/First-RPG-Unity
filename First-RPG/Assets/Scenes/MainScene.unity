@@ -3057,22 +3057,22 @@ Prefab:
     - target: {fileID: 224089979253847262, guid: 1ecec77eb22e1a540bb7f271ce70a8fa,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 45
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224089979253847262, guid: 1ecec77eb22e1a540bb7f271ce70a8fa,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -57
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224089979253847262, guid: 1ecec77eb22e1a540bb7f271ce70a8fa,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 60
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224089979253847262, guid: 1ecec77eb22e1a540bb7f271ce70a8fa,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 60
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224089979253847262, guid: 1ecec77eb22e1a540bb7f271ce70a8fa,
         type: 2}
@@ -3082,7 +3082,7 @@ Prefab:
     - target: {fileID: 224089979253847262, guid: 1ecec77eb22e1a540bb7f271ce70a8fa,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224089979253847262, guid: 1ecec77eb22e1a540bb7f271ce70a8fa,
         type: 2}
@@ -3092,7 +3092,7 @@ Prefab:
     - target: {fileID: 224089979253847262, guid: 1ecec77eb22e1a540bb7f271ce70a8fa,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224089979253847262, guid: 1ecec77eb22e1a540bb7f271ce70a8fa,
         type: 2}
@@ -3103,25 +3103,6 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114861397116358244, guid: 1ecec77eb22e1a540bb7f271ce70a8fa,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1302777517493146, guid: 1ecec77eb22e1a540bb7f271ce70a8fa, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114882108281999850, guid: 1ecec77eb22e1a540bb7f271ce70a8fa,
-        type: 2}
-      propertyPath: m_Interactable
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114882108281999850, guid: 1ecec77eb22e1a540bb7f271ce70a8fa,
-        type: 2}
-      propertyPath: m_Colors.m_DisabledColor.a
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1ecec77eb22e1a540bb7f271ce70a8fa, type: 2}
