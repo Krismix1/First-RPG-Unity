@@ -1,19 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class Inventory : MonoBehaviour {
 
     #region Singleton
-    private Inventory() {
-        if (instance == null) {
-            instance = this;
-        } else {
-            Debug.LogWarning("Trying to create to many Inventory objects.");
-        }
-    }
+    //private Inventory() {
+    //    if (instance == null) {
+    //        instance = this;
+    //    } else {
+    //        Debug.LogWarning("Trying to create to many Inventory objects.");
+    //    }
+    //}
 
     public static Inventory instance;
+    private void Awake() {
+        instance = this;
+    }
     #endregion
 
     public List<Item> items = new List<Item>();
