@@ -14,6 +14,6 @@ MonoBehaviour:
   name: Helmet of Protection
   icon: {fileID: 21300000, guid: c7db364ae88b0dc4dbe24991b8eda634, type: 3}
   isDefaultItem: 0
-  armourModifier: 10
+  armourModifier: 3
   damageModifier: 1
   equipmentSlot: 0

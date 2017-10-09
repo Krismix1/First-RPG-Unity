@@ -11,9 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8169fffa6010a0d4099b7f5c6f367f38, type: 3}
   m_Name: Sword of Destiny
   m_EditorClassIdentifier: 
-  name: New Item
-  icon: {fileID: 0}
+  name: Sword of Destiny
+  icon: {fileID: 21300000, guid: 3594db61c9645774cb4f77f975d61177, type: 3}
   isDefaultItem: 0
-  armourModifier: 0
-  damageModifier: 0
-  equipmentSlot: 0
+  armourModifier: 1
+  damageModifier: 4
+  equipmentSlot: 3
