@@ -9,11 +9,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8169fffa6010a0d4099b7f5c6f367f38, type: 3}
-  m_Name: Helmet of Protection
+  m_Name: Legs of Ice
   m_EditorClassIdentifier: 
-  name: Helmet of Protection
-  icon: {fileID: 21300000, guid: c7db364ae88b0dc4dbe24991b8eda634, type: 3}
+  name: Legs of Ice
+  icon: {fileID: 21300000, guid: ec75fa8a86c9371428bcb7ee4db1333f, type: 3}
   isDefaultItem: 0
   armourModifier: 3
-  damageModifier: 1
-  equipmentSlot: 0
+  damageModifier: 0
+  equipmentSlot: 2
+  mesh: {fileID: 137719873673867700, guid: d6ff815415fabea499d498890aff6fc9, type: 2}
+  coveredMeshRegions: 00000000

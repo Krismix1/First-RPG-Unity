@@ -9,12 +9,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8169fffa6010a0d4099b7f5c6f367f38, type: 3}
-  m_Name: Helmet of Fire
+  m_Name: Chest of Guard
   m_EditorClassIdentifier: 
-  name: Helmet of Fire
-  icon: {fileID: 21300000, guid: 8a7a02dd039102e4f9788fdc6c45f0ac, type: 3}
+  name: Chest of Guard
+  icon: {fileID: 21300000, guid: 046240a535ce8824c82cfd733f2c8246, type: 3}
   isDefaultItem: 0
-  armourModifier: 2
-  damageModifier: 3
-  equipmentSlot: 0
-  mesh: {fileID: 137392175707570306, guid: afd15f1dd64fa3b4bba01e99b9169dbc, type: 2}
+  armourModifier: 5
+  damageModifier: 0
+  equipmentSlot: 1
+  mesh: {fileID: 137680631886581122, guid: 87d4646887288eb4fb2194ddecc3c8e6, type: 2}
+  coveredMeshRegions: 0100000002000000

@@ -5,6 +5,8 @@ public class Equipment : Item {
     public int armourModifier;
     public int damageModifier;
     public EquipmentSlot equipmentSlot;
+    public SkinnedMeshRenderer mesh;
+    public EquipmentMeshRegion[] coveredMeshRegions;
 
     public override void Use() {
         base.Use();
@@ -18,4 +20,8 @@ public class Equipment : Item {
 
 public enum EquipmentSlot {
     Head, Chest, Legs, Weapon, Shield, Feet
+}
+
+public enum EquipmentMeshRegion { // corresponds to body blendshapes
+    Legs, Arms, Torso
 }

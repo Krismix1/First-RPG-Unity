@@ -9,12 +9,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8169fffa6010a0d4099b7f5c6f367f38, type: 3}
-  m_Name: Helmet of Fire
+  m_Name: Shoes
   m_EditorClassIdentifier: 
-  name: Helmet of Fire
-  icon: {fileID: 21300000, guid: 8a7a02dd039102e4f9788fdc6c45f0ac, type: 3}
-  isDefaultItem: 0
-  armourModifier: 2
-  damageModifier: 3
-  equipmentSlot: 0
-  mesh: {fileID: 137392175707570306, guid: afd15f1dd64fa3b4bba01e99b9169dbc, type: 2}
+  name: Shoes
+  icon: {fileID: 0}
+  isDefaultItem: 1
+  armourModifier: 0
+  damageModifier: 0
+  equipmentSlot: 5
+  mesh: {fileID: 137396752857271218, guid: a8e49893f3a17df4bb67d7671cefb502, type: 2}
+  coveredMeshRegions: 
