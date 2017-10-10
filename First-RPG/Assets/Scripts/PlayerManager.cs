@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour {
@@ -12,4 +11,8 @@ public class PlayerManager : MonoBehaviour {
     #endregion
 
     public GameObject player;
+
+    public void KillPlayer() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
