@@ -8,12 +8,12 @@ public class PlayerController : MonoBehaviour {
 
     PlayerMotor motor;
 
-    // Use this for initialization
+
     void Start() {
         motor = GetComponent<PlayerMotor>();
     }
 
-    // Update is called once per frame
+
     void Update() {
         if (EventSystem.current.IsPointerOverGameObject()) {
             // Click on UI object

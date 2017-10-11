@@ -7,17 +7,26 @@ public class PlayerMotor : MonoBehaviour {
     NavMeshAgent agent;
 
     Transform target;
+    bool coroutineStarted = false;
 
-    // Use this for initialization
     void Start() {
         agent = GetComponent<NavMeshAgent>();
     }
 
     private void Update() {
         if (target != null) {
-            //TODO: Transform the following into a courutine for optimazation
-            agent.SetDestination(target.position);
+            if (!coroutineStarted) {
+                coroutineStarted = true;
+                StartCoroutine(FollowTarget());
+            }
             FaceTarget();
+        }
+    }
+
+    System.Collections.IEnumerator FollowTarget() {
+        while(target != null) {
+            agent.SetDestination(target.position);
+            yield return null;
         }
     }
 
@@ -29,12 +38,14 @@ public class PlayerMotor : MonoBehaviour {
         target = interactable.transform;
         agent.stoppingDistance = interactable.radius * .8f;
         agent.updateRotation = false;
+        coroutineStarted = false;
     }
 
     public void StopFollowingTarget() {
         target = null;
         agent.stoppingDistance = 0f;
         agent.updateRotation = true;
+        coroutineStarted = false;
     }
 
     void FaceTarget() {

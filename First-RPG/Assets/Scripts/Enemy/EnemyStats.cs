@@ -7,7 +7,7 @@ public class EnemyStats : CharacterStats {
     public override void Die() {
         base.Die();
 
-        // Play animation
+        // Play die animation
         // Loot
 
         Destroy(gameObject);

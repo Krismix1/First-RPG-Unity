@@ -8,16 +8,9 @@ public class CharacterStats : MonoBehaviour {
     public int maxHealth = 100;
     public int CurrentHealth { get; private set; }
 
-    // Use this for initialization
+
     void Awake() {
         CurrentHealth = maxHealth;
-    }
-
-    private void Update() {
-        // For testing taking of damage and armour reduction
-        if (Input.GetKeyDown(KeyCode.T)) {
-            TakeDamage(10);
-        }
     }
 
     public void TakeDamage(int damage) {

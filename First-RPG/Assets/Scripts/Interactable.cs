@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System;
 
-public class Interactable : MonoBehaviour {
+public abstract class Interactable : MonoBehaviour {
 
     public float radius = 3f;
     public Transform interactionPoint;
@@ -17,8 +17,7 @@ public class Interactable : MonoBehaviour {
         }
     }
 
-    public virtual void Interact() {
-    }
+    public abstract void Interact();
 
     private void Update() {
         if (isFocused && !hasInteracted) {
