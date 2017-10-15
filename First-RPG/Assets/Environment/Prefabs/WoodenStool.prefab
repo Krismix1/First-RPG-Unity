@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4002246828333360}
   - component: {fileID: 33688924353954310}
   - component: {fileID: 23943174438650622}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WoodenStool
   m_TagString: Untagged
   m_Icon: {fileID: 0}

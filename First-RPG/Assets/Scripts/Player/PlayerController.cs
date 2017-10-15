@@ -4,8 +4,8 @@ using UnityEngine.EventSystems;
 public class PlayerController : MonoBehaviour {
 
     public LayerMask groundLayer;
-    public Interactable focus;
 
+    Interactable focus;
     PlayerMotor motor;
 
 
